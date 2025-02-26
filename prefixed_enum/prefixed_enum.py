@@ -10,6 +10,9 @@ class PrefixedEnum(Enum):
     # def __str__(self):
     #     return str(self.value)
 
+    def __str__(self):
+        return str(self.value)
+
 
 class PrefixedStrEnum(str, PrefixedEnum):
     """
